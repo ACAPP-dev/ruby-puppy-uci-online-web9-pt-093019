@@ -20,7 +20,7 @@ class Dog
   end
 
   def self.print_all
-    @@dog_names.uniq.each {|element| puts element}
+    @@dog_names.each {|element| puts element}
   end
 
   def save
