@@ -22,7 +22,7 @@ class Dog
 
   def self.print_all
     @@dog_names.each {|element| puts element}
-    binding.pry
+  
   end
 
   def save
